@@ -5,6 +5,8 @@ import background from "./images/pattern-bg.png"
 import arrow from "./images/icon-arrow.svg"
 import Markerposition from "./components/Markerposition"
 
+// create usestate for the accepting IP
+
 function App() {
   const [address, setAddress] = useState(null)
   const [ipAddress, setIpAddress] = useState("")
